@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textview_label_reposito_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:hint="@string/label_codigo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_reposito_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toEndOf="@+id/textview_label_reposito_codigo"
+        app:layout_constraintTop_toTopOf="@+id/textview_label_reposito_codigo" />
+
+    <TextView
+        android:id="@+id/textview_label_reposito_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:hint="@string/label_nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_reposito_codigo" />
+
+    <TextView
+        android:id="@+id/textview_reposito_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toEndOf="@+id/textview_label_reposito_nome"
+        app:layout_constraintTop_toTopOf="@+id/textview_label_reposito_nome" />
+
+    <TextView
+        android:id="@+id/textview_label_reposito_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:hint="@string/label_endereco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_reposito_nome" />
+
+    <TextView
+        android:id="@+id/textview_reposito_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toEndOf="@+id/textview_label_reposito_url"
+        app:layout_constraintTop_toTopOf="@+id/textview_label_reposito_url" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

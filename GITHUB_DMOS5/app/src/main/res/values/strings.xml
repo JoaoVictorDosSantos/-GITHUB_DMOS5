@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">GITHUB_DMOS5</string>
+    <string name="app_name">Busca Repositório</string>
+
+    <string name="hint_nome">Digite um nome</string>
+
+    <string name="label_codigo">Código:</string>
+    <string name="label_nome">Nome:</string>
+    <string name="label_endereco">Endereço:</string>
+
+    <string name="botao_pesquisar">Pesquisar</string>
+
+    <string name="campo_obrigatorio">Informado campo obrigatório.</string>
+    <string name="erro_api">Erro ao localizar o(s) Repositório(s).</string>
+    <string name="explicacao_permissao">A busca do(s) respositório(s) depende do acesso a internet, sem essa permissão o aplicativo não consegue recuperar a informação desejada.</string>
+    <string name="botao_permitir">Permitir</string>
+    <string name="botao_nao_permitir">Agora não</string>
+
 </resources>
