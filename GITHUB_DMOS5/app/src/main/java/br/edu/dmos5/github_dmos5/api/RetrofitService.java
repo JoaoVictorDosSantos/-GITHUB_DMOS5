@@ -10,5 +10,5 @@ import retrofit2.http.Path;
 public interface RetrofitService {
 
     @GET("{endereco}")
-    Call<List<Repositorio>> buscaPorNome(@Path("endereco") String nome);
+    Call<List<Repositorio>> buscaPorNome(@Path(value="endereco", encoded = true) String nome);
 }
